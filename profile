@@ -1,15 +1,15 @@
 	# Including files
 
 if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
+	source ~/.bashrc
 fi
 
 if [ -f ~/.bash_aliases ]; then
-	. ~/.bash_aliases
+	source ~/.bash_aliases
 fi
 
-if [ -f /opt/boxen/env.sh ]; then
-	. /opt/boxen/env.sh
+if [ -f /opt/my-puppet/env.sh ]; then
+	source /opt/my-puppet/env.sh
 fi
 
 	# Editing $PATH
