@@ -12,6 +12,10 @@ if [ -f /opt/my-puppet/env.sh ]; then
 	source /opt/my-puppet/env.sh
 fi
 
+if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+	source /usr/local/etc/bash_completion.d/git-completion.bash
+fi
+
 	# Editing $PATH
 	
 if [ -d ~/Public/bin ] ; then
